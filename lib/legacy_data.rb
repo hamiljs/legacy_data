@@ -5,7 +5,7 @@ require 'legacy_data/table_definition'
 require 'legacy_data/schema'
 require 'legacy_data/table_class_name_mapper'
 
-Foreigner.register 'oracle_enhanced', 'foreigner/connection_adapters/oracle_enhanced_adapter'
+#Foreigner.register 'oracle_enhanced', 'foreigner/connection_adapters/oracle_enhanced_adapter'
 
 module LegacyData
   # In Rails 2.3 this was ActiveRecord::Base.class_name but it no longer exists in Rails 3
